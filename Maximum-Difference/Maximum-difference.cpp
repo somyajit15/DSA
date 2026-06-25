@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    int arr[n];
+
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+
+    int minElement = arr[0];
+    int maxDifference = arr[1] - arr[0];
+
+    for (int i = 1; i < n; i++) {
+        if (arr[i] - minElement > maxDifference) {
+            maxDifference = arr[i] - minElement;
+        }
+
+        if (arr[i] < minElement) {
+            minElement = arr[i];
+        }
+    }
+
+    cout << maxDifference;
+
+    return 0;
+}
