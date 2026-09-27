@@ -22,4 +22,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/somyajit15/DSA/tree/master/0053-maximum-subarray) |
+## String
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/somyajit15/DSA/tree/master/0796-rotate-string) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/somyajit15/DSA/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
